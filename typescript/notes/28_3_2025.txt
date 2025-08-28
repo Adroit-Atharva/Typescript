@@ -1,0 +1,23 @@
+typescript is simply better than javascript 
+javascript is for savages with no discipline
+typrscript is for gentlemen.
+ts is more strict and needs a compiler 
+ts is a super set of js 
+the compiler of ts converts the ts code into js code
+by default ts uses an older verison of javascript which is called es5.
+
+
+configuring the ts compiler:-
+use tsconfig.json to configure the file
+used to specify the input directory and the output directory for the ts compiler
+
+debugging using vs code and nodejs
+-shows us how the values of the vars change as the lines within the code are executed
+
+datatypes in ts:-
+number
+string
+boolean
+any (avoid using it cause it defeats the purpose of using ts in the first place)
+array (linear sequence of similar datatypes)
+tuples (linear sequence of heterogenous datatypes) like structures in c
