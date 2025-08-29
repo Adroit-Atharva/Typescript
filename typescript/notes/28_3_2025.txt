@@ -21,3 +21,17 @@ boolean
 any (avoid using it cause it defeats the purpose of using ts in the first place)
 array (linear sequence of similar datatypes)
 tuples (linear sequence of heterogenous datatypes) like structures in c
+enums
+
+functions in ts:-
+/*
+ function function_name(varible: type of parameter, var == default value which makes it optional): return type of funciton{ //return type of function is by default void
+
+    return 0;
+}
+ */
+
+note:- always as a best practice, anotate our functions in ts
+
+
+objects in ts:-
