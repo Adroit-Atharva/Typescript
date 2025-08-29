@@ -1,0 +1,33 @@
+advanced datatypes in ts:-
+type:- defining types in ts 
+how is it different from tuples?
+tuples are used to store data of different datatypes in an array, 
+usually used to store information about something in short way.
+
+types help us define a type for multiple vars
+type is more similar to classes in oop type programming languages
+this where we can define all the properties and methods of those types
+
+readonly properties are like constants in c
+
+union types in tsc
+can be anotated using | 
+example:-
+function kgtolbs(weight:number | string):number{}
+after compilation the compiler does the type checking and removes the type for js code
+
+intersection types in tsc
+& helps us declare an object of multiple types(practically useless)
+this can be very useful if the multiple types are userdefined
+the type defined using another types should implement its methods when an object s created of its type
+
+literal types in tsc:-
+used to specify the type in more detail
+example:-
+type gravity = 9.18;
+type pi = 3.14 | 22/7; // this is wrong 
+//and if try to circumvent it as follows
+// const p = 22/7; // using this doesn't make any sense
+// type pi = 3.142 | typeof p; //this just takes of type number so it isn't literal
+
+nullable types in tsc:-
